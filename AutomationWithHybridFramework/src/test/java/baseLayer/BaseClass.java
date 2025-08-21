@@ -39,6 +39,7 @@ public class BaseClass {
 		}
 
 		report.flush();
+		System.out.println("Flushing report");
 	}
 
 	@BeforeClass
